@@ -1,7 +1,26 @@
 
+
+.inter-uniquifier{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+span{
+    font-family: 'Miama', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 78px;
+    position: relative;
+    top: -40px;
+    bottom: -40px;                                     
+}
+
+
 body{
     color: white; 
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 
@@ -12,10 +31,14 @@ section{
 
 .btn{
     background-color: rgba(230, 83, 60, 1) ;
-    padding: 5px 10px;
+    padding: 16px 40px 16px 40px;
+    width: 224px;
     border: none;
-    border-radius: 39px;
-    color: white;
+    border-radius: 42px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
 }
 
 .btn:hover{
@@ -24,16 +47,25 @@ section{
 
 .download{
     background-color: black ;
-    padding: 5px 10px;
-    border-radius: 39px;
-    color: white;
+    padding: 16px 40px 16px 40px;
+    width: 224px;
+    border-radius: 42px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
 }
 
 .download:hover{
     background-color: rgb(101, 100, 100);
 }
+
 .color1{
     color: rgba(230, 83, 60, 1);
+}
+
+.color2{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
@@ -46,6 +78,11 @@ section{
     align-items: center;
     width: 90%;
     margin: 0 auto;
+}
+
+.fit{
+    font-weight: 800;
+    font-size: 36px;
 }
 
 .bar{
@@ -72,18 +109,21 @@ section{
 }
 
 .banner-para{
-    font-size: 10px;
-    width: 45%;
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
     margin-top: 0;
 }
 
 .banner-img{
-    width: 100%;
+    width: 349px;
+    height: 580px;
 }
 
 .banner-title{
-    width: 40%;
-    font-size: 65px;
+    width: 50%;
+    font-size: 78px;
+    font-weight: 900px;
 }
 
 /* .card1{
@@ -110,19 +150,38 @@ section{
     align-items: center;
 }
 
+.cng-title{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.cng-para{
+    font-weight: 400;
+    font-size: 14px;
+}
+
 .four-img{
     display: flex;
     width: 80%;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
+.p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.pt{
+    font-weight: 600;
+    font-size: 18px;
+}
 .four-img > div{
     padding: 20px;
     text-align: center;
 }
 
 .habit{
-    width: 90%;
+    width: 100%;
     margin:0 auto ;
 }
 
@@ -142,6 +201,20 @@ section{
     width: 90%;
     margin: 0 auto;
     padding: 10px;
+}
+
+.p2{
+    font-weight: 900px;
+    font-size: 48px;
+    width: 50%;
+}
+
+.p3{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    width: 90%;
 }
 
 #b{
@@ -187,11 +260,56 @@ table{
 
 td,th{
     border: 1px solid rgba(230, 83, 60, 1);
-    padding-right: 30px;
+    padding: 10px 30px 10px 10px;
 }
 .bmi{
     display: flex;
     justify-content: space-evenly;
+    background-color: rgba(34, 34, 34, 1);
+}
+
+.p4{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.p5{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 70px;
+}
+
+caption{
+    font-weight: 900;
+    font-size: 28px;
+    margin: 30px 0 30px 0;
+}
+
+.p6{
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.p7{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+thead, tbody{
+    width: 310px;
+    margin-top: 138px;
+    margin-bottom: 189px;
+}
+
+.select{
+    margin-bottom: 20px;
 }
 
 .bmi-cal > div > input, select{
@@ -202,7 +320,7 @@ td,th{
 }
 
 #bmi{
-    background-color: rgb(39, 39, 39);
+    
 }
 
 

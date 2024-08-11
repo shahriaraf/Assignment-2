@@ -6,14 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">         
 </head>
 
-<body>
+<body class="inter-uniquifier">
     <header>
         <nav>
             <div class="navi">
                 <div class="fitness color1">
-                    <h2>Fitness</h2>
+                    <h2 class="fit"><i>Fitness</i></h2>
                 </div>
                 <div class="bar">
                     <div class="home">Home</div>
@@ -25,8 +29,8 @@
         </nav>
         <div class="banner">
             <div>
-                <p class="banner-title">Get body in <span>shape</span> and stay healthy</p>
-                <p class="banner-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam nisi aliquam iste aperiam alias inventore repellendus, beatae laboriosam ipsa quidem dignissimos ex soluta quam veritatis nesciunt, vero esse in.</p>
+                <h3 class="banner-title">Get body in <span>shape</span> and stay healthy</h3>
+                <p class="banner-para color2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam nisi aliquam iste aperiam alias inventore repellendus, beatae laboriosam ipsa quidem dignissimos ex soluta quam veritatis nesciunt, vero esse in.</p>
                 <button class="btn">Join Club now!</button>
                 <button class="download">Download App</button>
             </div>
@@ -54,7 +58,7 @@
                     <p class="cng-title">
                         Change Your Habits
                     </p>
-                    <p class="cng-para">
+                    <p class="cng-para color2">
                         We believe fitness should be accessible to everyone, everywhere, regardless of income or access
                         to a gym.
                     </p>
@@ -63,8 +67,8 @@
                     <div>
                         <img id="a" src="B10A2-versatile-ui/images/image 3.png" alt="">
 
-                        <p>Movement</p>
-                        <p>We believe fitness should be accessible to everyone</p>
+                        <p class="pt">Movement</p>
+                        <p class="p color2">We believe fitness should be accessible to everyone</p>
                     </div>
 
 
@@ -72,8 +76,8 @@
                     <div>
                         <img id="a" src="B10A2-versatile-ui/images/image 2.png" alt="">
 
-                        <p>Time</p>
-                        <p>We believe fitness should be accessible to everyone</p>
+                        <p class="pt">Time</p>
+                        <p class="p color2">We believe fitness should be accessible to everyone</p>
                     </div>
 
 
@@ -81,8 +85,8 @@
                     <div>
                         <img id="a" src="B10A2-versatile-ui/images/image 4.png" alt="">
 
-                        <p>Practice</p>
-                        <p>We believe fitness should be accessible to everyone</p>
+                        <p class="pt">Practice</p>
+                        <p class="p color2">We believe fitness should be accessible to everyone</p>
                     </div>
 
 
@@ -90,8 +94,8 @@
                     <div>
                         <img id="a" src="B10A2-versatile-ui/images/image 5.png" alt="">
 
-                        <p>Weight Loss</p>
-                        <p>We believe fitness should be accessible to everyone</p>
+                        <p class="pt">Weight Loss</p>
+                        <p class="p color2">We believe fitness should be accessible to everyone</p>
                     </div>
 
                 </div>
@@ -104,10 +108,10 @@
         <section>
             <div class="run">
                 <div>
-                    <p>
+                    <p class="p2">
                         Run an extra mile easily
                     </p>
-                    <p>
+                    <p class="p3 color2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe molestias rerum error quisquam dolores suscipit reiciendis ad neque molestiae laborum velit quas nisi obcaecati dolore necessitatibus repellat harum, dicta animi.
                     </p>
                     <button class="btn">
@@ -124,6 +128,8 @@
         <!-- BMI calculator -->
 
         <section id="bmi">
+            <p class="p4">BMI Calculator</p>
+            <p class="p5 color2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita possimus quasi cupiditate iste, porro saepe ad officia voluptate ratione doloribus incidunt sapiente nam placeat magni fuga omnis nemo dolore ducimus?</p>
             <div class="bmi">
                 <div>
                     <table>
@@ -156,10 +162,10 @@
                     </table>
                 </div>
                 <div>
-                    <p>Calculate Your BMI</p>
-                    <p>Lorem </p>
+                    <p class="p6">Calculate Your BMI</p>
+                    <p class="p7 color2">Lorem </p>
                     <div class="bmi-cal">
-                        <div>
+                        <div class="select">
                             <input type="text" placeholder="Height/cm">
                             <input type="text" placeholder="Weight/kg" name="" id=""><br>
                             <input type="text" placeholder="Age" name="" id="">
@@ -171,8 +177,8 @@
                                 <option value="Runing">Runing</option>
                                 <option value="Swiming">Swiming</option>
                             </select><br>
-                            <button class="btn">Calculate</button>
                         </div>
+                        <button class="btn">Calculate</button>
                     </div>
                 </div>
             </div>
